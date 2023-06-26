@@ -1,0 +1,71 @@
+#id1, #id2, #id3, #navbarDropdownMenuLink, #id4, #id5, #id6{
+    color:black;
+    font-weight:bold;
+  
+    font-size:20px;
+   
+}
+
+#id1:hover, #id2:hover , #navbarDropdownMenuLink:hover, #id3:hover, #id4:hover, #id5:hover, #id6:hover{
+    color:#ffffff;
+}
+
+.owl-gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.owl-gallery img{
+    transition: transform 0.5s;
+}
+.imageclass{
+    padding:20px;
+    background-color:#006038;
+    border-radius:30px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-image{
+    background-image:url("https://media.istockphoto.com/id/457403695/vector/horizontal-beige-blurred-background-with-graphic-elements.jpg?s=612x612&w=0&k=20&c=qW_ZzF294xuoEHy-rS7Nyo_eVTQgzwjGJEW0ygBBSSk=");
+    background-size:cover;
+}
+
+.saloonlogo{
+    width:80px;
+    border-radius:100%;
+}
+
+
+@media(max-width:576px){
+    .saloonlogo{
+        width:60px;
+    }
+
+}
+
+
+@media(min-width:768px){
+    .dropdown:hover .dropdown-menu{
+        display:block;
+    }
+}
+
+.item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.item{
+    transition: transform 0.5s;
+}
+
+.icons{
+    color:black;
+    font-size:20px;
+    margin-right:10px;
+}
+
